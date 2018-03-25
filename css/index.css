@@ -1,0 +1,335 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  min-width: 320px;
+}
+
+a, a:visited, a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2222dd;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+  vertical-align: top;
+}
+
+td {
+  padding-bottom: 15px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1800px;
+  position: relative;
+}
+
+header {
+  margin: 40px 0 0 0;
+  background: #333;
+  color: #fff;
+  padding: 15px;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0 0 0 155px;
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0 0 0 155px;
+}
+
+header h3 {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 0 0 0;
+  margin: 0 0 0 155px;
+}
+
+header img {
+  width: 135px;
+  height: 135px;
+  position: absolute;
+  top: -27px;
+  left: 0;
+  border: solid 3px #fff;
+  border-radius: 50%;
+}
+
+section.contact {
+  background: #f6f6f6;
+  border-bottom: solid 1px #e5e5e5;
+  text-align: center;
+}
+
+section.contact .item {
+  display: inline-block;
+  padding: 20px;
+  font-size: 14px;
+  border-right: solid 1px #e5e5e5;
+}
+
+section.contact .item .icon {
+  margin-right: 3px;
+}
+
+section.contact .item:last-child {
+  border-right: none;
+}
+
+section.tiles {
+  padding: 0;
+  margin: 35px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+section.tiles .tile {
+  float: left;
+  width: 48%;
+  margin: 0 1%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+section.tiles .tile .content {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+section.tiles .tile .content .title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #444;
+  padding-bottom: 7px;
+  margin-bottom: 15px;
+  border-bottom: solid 1px #e5e5e5;
+}
+
+section.summaries .summary:first-child {
+  float: left;
+}
+
+section.summaries .summary:last-child {
+  float: right;
+}
+
+section.summaries .summary .title {
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #777;
+  padding-bottom: 7px;
+  border-bottom: solid 1px #e5e5e5;
+}
+
+.career-summary {
+  overflow: hidden;
+  padding: 0 0 5px 0;
+}
+
+.career-summary .arrow {
+  float: left;
+  padding-right: 5px;
+}
+
+.career-summary .name {
+  float: left;
+}
+
+.career-summary .name:hover {
+  text-decoration: underline;
+}
+
+.career-summary .period {
+  float: right;
+  font-size: 14px;
+  color: #777;
+}
+
+.qualification {
+  padding-bottom: 15px;
+}
+
+.qualification .date {
+  font-weight: 200;
+  color: #777;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.skills-single {
+  display: none;
+}
+
+.skills-single div {
+  padding: 0 0 10px 0;
+  font-weight: 100;
+  color: #333;
+}
+
+.skills-double {
+  display: block;
+}
+
+section.history {
+  margin: 35px 2%;
+  box-sizing: border-box;
+}
+
+section.history .header {
+  overflow: hidden;
+  padding-bottom: 7px;
+  border-bottom: solid 1px #e5e5e5;
+}
+
+section.history .header .company {
+  font-weight: bolder;
+  text-transform: uppercase;
+  float: left;
+}
+
+section.history .header .date {
+  font-weight: 200;
+  text-transform: uppercase;
+  float: right;
+  font-size: 13px;
+  color: #777;
+}
+
+section.history .role {
+  margin-top: 15px;
+  margin-bottom: 70px;
+}
+
+section.history .role .name {
+  text-transform: none;
+}
+
+section.history .role .summary {
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+section.history .role .duties {
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+section.history .role .duties .title {
+  padding-bottom: 5px;
+}
+
+section.history .role .duties ul {
+  margin-top: 7px;
+}
+
+section.history .role .duties ul li {
+  font-weight: 200;
+  padding-bottom: 5px;
+  list-style-type: circle;
+}
+
+@media (min-width: 0px) and (max-width: 900px) {
+  section.tiles {
+    margin: 0;
+  }
+
+  section.tiles .tile {
+    float: none;
+    width: 100%;
+    margin: 25px 0;
+  }
+
+  section.tiles .tile:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .skills-single {
+    display: block;
+  }
+
+  .skills-double {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .container {
+    width: 98%;
+  }
+
+  header img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    border: solid 3px #fff;
+    border-radius: 50%;
+  }
+
+  header h1 {
+    font-size: 20px;
+    margin: 0 0 0 117px;
+  }
+
+  header h2 {
+    font-size: 14px;
+    margin: 0 0 0 117px;
+  }
+
+  header h3 {
+    font-size: 10px;
+    margin: 0 0 0 117px;
+  }
+
+  section.history .header .company {
+    float: none;
+    display: block;
+  }
+
+  section.history .header .date {
+    padding-top: 3px;
+    float: none;
+    display: block;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 620px) {
+  section.contact .item {
+    display: block;
+    border-right: none;
+    border-bottom: solid 1px #e5e5e5;
+  }
+
+  section.contact .item:last-child {
+    border-bottom: none;
+  }
+}
